@@ -79,7 +79,7 @@ router.get('/show', (req, res, next) => {
         if (error == null) {
             var data = {
                 title: 'Hello/show',
-                conent: 'id = ' + id + 'のレコード',
+                content: 'id = ' + id + 'のレコード',
                 mydata: results[0]
             }
             res.render('hello/show', data);
